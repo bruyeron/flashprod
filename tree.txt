@@ -1,0 +1,28 @@
+src/
+│
+├── App.jsx
+├── main.jsx
+│
+├── features/
+│   └── dashboard/
+│       ├── components/
+│       │   ├── TopBar.jsx
+│       │   ├── DataTable.jsx
+│       │   ├── TableHeader.jsx
+│       │   ├── TableRow.jsx
+│       │   ├── Legend.jsx
+│       │   └── EmptyState.jsx
+│       │
+│       ├── hooks/
+│       │   ├── useCSV.js
+│       │   ├── useIndexBuilder.js
+│       │   └── useCollapse.js
+│       │
+│       ├── utils/
+│       │   ├── csvParser.js
+│       │   ├── aggregations.js
+│       │   ├── dateHelpers.js
+│       │   └── formatters.js
+│       │
+│       └── config/
+│           └── rowDefinitions.js
