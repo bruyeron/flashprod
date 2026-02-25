@@ -1,5 +1,61 @@
 @import "tailwindcss";
 
 :root {
+  /* Couleurs de base */
+  --bg: #f5f7fa;
+  --bg2: #ffffff;
+  --bg3: #eef1f6;
+  --bg4: #e3e8f0;
+  --border: #d0d7e3;
+  --border-strong: #b0bcd0;
+  --text: #1a2234;
+  --text-muted: #7a8aaa;
+  
+  /* Bleu */
   --accent: #2563eb;
+  --accent-light: #dbeafe;
+
+  /* --- COULEURS KPI (Essentielles pour votre tableau) --- */
+  /* Vert */
+  --green: #16a34a;      /* Texte vert foncé */
+  --green-bg: #dcfce7;   /* Fond vert clair */
+
+  /* Orange */
+  --orange: #d97706;
+  --orange-bg: #fef3c7;
+
+  /* Rouge */
+  --red: #dc2626;
+  --red-bg: #fee2e2;
+
+  /* Tableaux */
+  --section-bg: #eff6ff;
+  --total-bg: #f0f4ff;
+  --month-total-bg: #dbeafe;
+}
+
+/* Mode sombre (Optionnel pour l'instant) */
+body.dark {
+  --bg: #0d1117;
+  --bg2: #161b22;
+  --bg3: #21262d;
+  --bg4: #2d333b;
+  --border: #30363d;
+  --border-strong: #484f58;
+  --text: #e6edf3;
+  --text-muted: #8b949e;
+  --accent: #388bfd;
+  --accent-light: #1c3a6e;
+  
+  /* Ajustement des couleurs KPI pour le sombre pour que ça reste lisible */
+  --green: #4ade80;
+  --green-bg: #14532d; 
+  --orange: #fbbf24;
+  --orange-bg: #451a03;
+  --red: #f87171;
+  --red-bg: #450a0a;
+
+  --section-bg: #1c2433;
+  --total-bg: #1a2035;
+  --month-total-bg: #1e3a8a;
 }
